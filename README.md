@@ -92,7 +92,7 @@ marketplace_ai/
 
 1. **Clone repository**  
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/DattatrayBodake25/marketplace-ai-agents
 cd marketplace_ai
 ```
 
