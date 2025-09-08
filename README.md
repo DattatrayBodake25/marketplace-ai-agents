@@ -25,13 +25,13 @@ This project is an AI-powered assistant for a second-hand marketplace. It provid
 The goal of this project is to build **agents** that assist buyers and sellers in a second-hand marketplace:
 
 1. **Price Suggestor Agent**  
-   Suggests fair market prices for second-hand products using a combination of **LLM (Google Gemini 2.0 Flash)** and **rule-based logic**.  
+   - Suggests fair market prices for second-hand products using a combination of **LLM (Google Gemini 2.0 Flash)** and **rule-based logic**.  
    
 2. **Chat Moderation Agent**  
-   Detects whether chat messages are **Safe, Spam, Abusive, or contain a Phone Number**.  
+   - Detects whether chat messages are **Safe, Spam, Abusive, or contain a Phone Number**.  
 
 3. **Recommendation Agent**  
-   Suggests **similar products** based on category, brand, condition, age, and price.  
+   - Suggests **similar products** based on category, brand, condition, age, and price.  
 
 All actions are **logged** into CSV and JSON for future analytics.
 
