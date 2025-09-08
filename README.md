@@ -187,13 +187,13 @@ CSV file: `data/products.csv`
 ```
 
 3. Moderate Chat:
-URL: /moderate
-Method: POST
-Request Body (JSON):
+- **URL:** `/moderate`
+- **Method:** `POST`
+- **Request Body (JSON):**
 ```json
 { "message": "Call me at 9876543210" }
 ```
-Response:
+- **Response:**
 ```json
 {
   "status": "PhoneNumber",
@@ -201,11 +201,11 @@ Response:
 }
 ```
 
-4. Recommend Products
-URL: /recommend/{product_id}
-Method: GET
-Query Params: top_n (optional, default=3)
-Response:
+4. Recommend Products:
+- **URL:** `/recommend/{product_id}`
+- **Method:** `GET`
+- **Query Params:** `top_n (optional, default=3)`
+- **Response:**
 ```json
 {
   "product_id": 1,
@@ -218,10 +218,10 @@ Response:
 }
 ```
 
-5. Sample Product
-URL: /sample-product
-Method: GET
-Response: Returns first product in dataset.
+5. Sample Product:
+- **URL:** `/sample-product`
+- **Method:** `GET`
+- **Response:** `Returns first product in dataset.`
 ```json
 {
     "id": 1,
