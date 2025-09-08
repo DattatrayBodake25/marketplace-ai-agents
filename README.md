@@ -130,13 +130,16 @@ http://127.0.0.1:8000
 ---
 
 ## Dataset
-CSV file: data/products.csv
-```bash
-id	 title	        category	 brand	 condition	   age_months	  asking_price	location
-1	   iPhone 12	    Mobile	   Apple	 Good	           24	          35000	      Mumbai
-2	   Redmi Note 11	Mobile	   Xiaomi	 Like New	       8	          11000	      Delhi
-...	 ...	          ...	       ...	   ...	           ...	        ...	        ...
 
+CSV file: `data/products.csv`
+```bash
+| id  | title          | category  | brand   | condition | age_months | asking_price | location |
+|-----|----------------|-----------|---------|-----------|------------|--------------|----------|
+| 1   | iPhone 12      | Mobile    | Apple   | Good      | 24         | 35000        | Mumbai   |
+| 2   | Redmi Note 11  | Mobile    | Xiaomi  | Like New  | 8          | 11000        | Delhi    |
+| 3   | OnePlus Nord 2 | Mobile    | OnePlus | Fair      | 30         | 15000        | Bangalore|
+| 4   | Dell Inspiron  | Laptop    | Dell    | Good      | 36         | 28000        | Pune     |
+| ... | ...            | ...       | ...     | ...       | ...        | ...          | ...      |
 ```
 
 ---
