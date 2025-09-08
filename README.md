@@ -145,7 +145,7 @@ CSV file: `data/products.csv`
 ---
 
 ## FastAPI Endpoints
-1. ** Negotiate Price (Manual Input)**
+1. Negotiate Price (Manual Input):
 URL: /negotiate
 Method: POST
 Request Body (JSON):
@@ -170,7 +170,7 @@ Response:
 }
 ```
 
-2. **Negotiate Price by ID**
+2. Negotiate Price by ID:
 URL: /negotiate/{product_id}
 Method: GET
 Response:
@@ -186,7 +186,7 @@ Response:
 }
 ```
 
-3. **Moderate Chat**
+3. Moderate Chat
 URL: /moderate
 Method: POST
 Request Body (JSON):
@@ -201,7 +201,7 @@ Response:
 }
 ```
 
-4. **Recommend Products**
+4. Recommend Products
 URL: /recommend/{product_id}
 Method: GET
 Query Params: top_n (optional, default=3)
@@ -218,7 +218,7 @@ Response:
 }
 ```
 
-5. **Sample Product**
+5. Sample Product
 URL: /sample-product
 Method: GET
 Response: Returns first product in dataset.
