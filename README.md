@@ -146,9 +146,9 @@ CSV file: `data/products.csv`
 
 ## FastAPI Endpoints
 1. Negotiate Price (Manual Input):
-URL: /negotiate
-Method: POST
-Request Body (JSON):
+**URL:** `/negotiate`
+**Method:** `POST`
+**Request Body (JSON):**
 ```json
 {
   "title": "iPhone 12",
