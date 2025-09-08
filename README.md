@@ -146,9 +146,9 @@ CSV file: `data/products.csv`
 
 ## FastAPI Endpoints
 1. Negotiate Price (Manual Input):
-**URL:** `/negotiate`
-**Method:** `POST`
-**Request Body (JSON):**
+- **URL:** `/negotiate`
+- **Method:** `POST`
+- **Request Body (JSON):**
 ```json
 {
   "title": "iPhone 12",
@@ -160,7 +160,7 @@ CSV file: `data/products.csv`
   "location": "Mumbai"
 }
 ```
-Response:
+- Response:
 ```json
 {
   "min_price": 22000,
@@ -171,9 +171,9 @@ Response:
 ```
 
 2. Negotiate Price by ID:
-URL: /negotiate/{product_id}
-Method: GET
-Response:
+- **URL:** `/negotiate/{product_id}`
+- **Method:** `GET`
+- **Response:**
 ```json
 {
   "product": { ... },
@@ -186,7 +186,7 @@ Response:
 }
 ```
 
-3. Moderate Chat
+3. Moderate Chat:
 URL: /moderate
 Method: POST
 Request Body (JSON):
